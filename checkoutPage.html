@@ -11,6 +11,14 @@
             margin: 0;
             padding: 0;
         }
+        nav { 
+            background-color:grey ;
+            color: black;
+            padding: 20px;
+            text-align: center;
+
+        }
+    
 
         .container {
             max-width: 600px;
@@ -57,17 +65,16 @@
         }
     </style>
 </head>
-<body>
 
 
-    <ul>
-        
-        <li><a href="/landpage.html"></a></li>
-        <li><a href="/about.html"></a></li>
-        <li><a href="/product.html"></a></li>
-        <li><a href="/contact.html"></a></li>
-        <li><a href="/checkout.html"></a></li>
-    </ul>
+
+    
+
+        <li><a href="/about.html"></a>about</li>
+        <li><a href="/product.html"></a>product</li>
+        <li><a href="/contact.html"></a>contact</li>
+        <li><a href="/checkout.html"></a>checkout</li>
+
     <div class="container">
         <h1>Checkout</h1>
         <form class="checkout-form">
@@ -81,7 +88,7 @@
             <input type="tel" id="phone" name="phone" required>
 
             <label for="address">Shipping Address:</label>
-            <textarea id="address" name="address" rows="4" required></textarea>
+            <input type="address" id="address" name="address" rows="4" required>
 
             <label for="payment-method">Payment Method:</label>
             <select id="payment-method" name="payment-method" required>
